@@ -6,12 +6,7 @@ pipeline {
                 sh 'mvn -B clean package'
             }
         }
-	stage('pullLatestCode'){
-                git branch: 'main',
-                 credentialsId: '98187a3f-2169-470a-9b8b-798e74dd2178',
-                 url: 'https://github.com/Kura2023/Gatling_Test_1.git'
-        }
-        stage("Run Gatling") {
+	stage("Run Gatling") {
             steps {
                 sh 'mvn gatling:test'
             }

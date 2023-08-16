@@ -1,0 +1,10 @@
+{
+  "simulation": "simulation.PerfTestSimulation",
+  "simulationId": "perftestsimulation",
+  "start": 1690363525596,
+  "description": "",
+  "scenarios": ["add items to cart"],
+  "assertions": [
+
+  ]
+}

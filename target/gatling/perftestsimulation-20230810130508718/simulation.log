@@ -1,0 +1,5 @@
+RUN	simulation.PerfTestSimulation	perftestsimulation	1691672708718	 	3.6.1
+USER	add items to cart	START	1691672710462
+REQUEST	homepage	Add items to cart	1691672710492	1691672710746	KO	j.n.ConnectException: Connection refused: no further information
+GROUP	homepage	1691672710466	1691672710760	254	KO
+USER	add items to cart	END	1691672710764
